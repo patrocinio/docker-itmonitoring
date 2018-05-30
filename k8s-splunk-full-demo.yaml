@@ -224,7 +224,7 @@ spec:
   template:
     metadata:
       labels:
-        app: ta-k8s-meta
+        app: ta-k8s-meta 
     spec:
       serviceAccountName: splunk
       containers: 
